@@ -14,4 +14,5 @@ set(headers
 set(test_sources
   src/tmp_test.cpp
   src/solution.cpp
+		src/asio_proxy.cpp
 )
