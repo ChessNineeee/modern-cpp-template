@@ -36,4 +36,34 @@ set(test_sources
         src/stl/algorithms/rune/is_heap_until.cpp
         src/stl/algorithms/queries/count.cpp
         src/stl/algorithms/queries/accumulate.cpp
+        src/stl/algorithms/queries/reduce.cpp
+        src/stl/algorithms/queries/transform_reduce.cpp
+        src/stl/algorithms/queries/partial_sum.cpp
+        src/stl/algorithms/queries/inclusive_scan.cpp
+        src/stl/algorithms/queries/exclusive_scan.cpp
+        src/stl/algorithms/queries/transform_inclusive_scan.cpp
+        src/stl/algorithms/queries/transform_exclusive_scan.cpp
+        src/stl/algorithms/queries/inner_product.cpp
+        src/stl/algorithms/queries/adjacent_difference.cpp
+        src/stl/algorithms/properties/all_any_none_of.cpp
+        src/stl/algorithms/properties/equal.cpp
+        src/stl/algorithms/properties/is_permutation.cpp
+        src/stl/algorithms/search/find_xxx.cpp
+        src/stl/algorithms/search/adjacent_find.cpp
+        src/stl/algorithms/search/equal_range.cpp
+        src/stl/algorithms/search/lower_bound.cpp
+        src/stl/algorithms/search/upper_bound.cpp
+        src/stl/algorithms/search/binary_search.cpp
+        src/stl/algorithms/search/search.cpp
+        src/stl/algorithms/search/find_end.cpp
+        src/stl/algorithms/search/find_first_of.cpp
+        src/stl/algorithms/sorted_collections/collection_difference.cpp
+        src/stl/algorithms/sorted_collections/collection_intersection.cpp
+        src/stl/algorithms/sorted_collections/collection_union.cpp
+        src/stl/algorithms/sorted_collections/collection_symmetric_difference.cpp
+        src/stl/algorithms/sorted_collections/collection_includes.cpp
+        src/stl/algorithms/move/erase_if.cpp
+        src/stl/algorithms/move/remove.cpp
+        src/stl/algorithms/move/replace_if.cpp
+        src/stl/algorithms/move/unique.cpp
 )
