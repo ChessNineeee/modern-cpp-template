@@ -1,18 +1,39 @@
 set(sources
-    src/tmp.cpp
+        src/tmp.cpp
 )
 
 set(exe_sources
-		src/main.cpp
-		${sources}
+        src/main.cpp
+        ${sources}
 )
 
 set(headers
-    include/project/tmp.hpp
+        include/project/tmp.hpp
 )
 
 set(test_sources
-  src/tmp_test.cpp
-  src/solution.cpp
-		src/asio_proxy.cpp
+        src/tmp_test.cpp
+        src/solution.cpp
+        src/asio_proxy.cpp
+        src/stl/algorithms/heap/make_heap_and_pop_heap.cpp
+        src/stl/algorithms/heap/push_heap.cpp
+        src/stl/algorithms/heap/sort_heap.cpp
+        src/stl/algorithms/sort/sort.cpp
+        src/stl/algorithms/sort/partial_sort.cpp
+        src/stl/algorithms/sort/nth_element.cpp
+        src/stl/algorithms/sort/max_element.cpp
+        src/stl/algorithms/sort/min_element.cpp
+        src/stl/algorithms/sort/min_max_element.cpp
+        src/stl/algorithms/sort/inplace_merge.cpp
+        src/stl/algorithms/partition/partition.cpp
+        src/stl/algorithms/partition/partition_point.cpp
+        src/stl/algorithms/rune/stable_sort.cpp
+        src/stl/algorithms/rune/stable_partition.cpp
+        src/stl/algorithms/rune/is_sorted.cpp
+        src/stl/algorithms/rune/is_sorted_until.cpp
+        src/stl/algorithms/rune/is_partitioned.cpp
+        src/stl/algorithms/rune/is_heap.cpp
+        src/stl/algorithms/rune/is_heap_until.cpp
+        src/stl/algorithms/queries/count.cpp
+        src/stl/algorithms/queries/accumulate.cpp
 )
