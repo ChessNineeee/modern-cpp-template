@@ -67,4 +67,8 @@ set(test_sources
         src/stl/algorithms/move/replace_if.cpp
         src/stl/algorithms/move/unique.cpp
         src/state_machine/modern_cpp_way.cpp
+        src/state_machine/tcp_connection_state.cpp
+        src/container/container.cpp
+        src/memalloc/allocator.cpp
+        src/monkey/lexer.cpp
 )
