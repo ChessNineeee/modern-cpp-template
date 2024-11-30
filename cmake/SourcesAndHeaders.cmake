@@ -66,4 +66,5 @@ set(test_sources
         src/stl/algorithms/move/remove.cpp
         src/stl/algorithms/move/replace_if.cpp
         src/stl/algorithms/move/unique.cpp
+        src/state_machine/modern_cpp_way.cpp
 )
