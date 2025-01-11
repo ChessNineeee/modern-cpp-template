@@ -1,5 +1,7 @@
 set(sources
         src/tmp.cpp
+        src/monkey/lexer.cpp
+        src/monkey/parser.cpp
 )
 
 set(exe_sources
@@ -9,6 +11,10 @@ set(exe_sources
 
 set(headers
         include/project/tmp.hpp
+        include/monkey/lexer.h
+        include/monkey/repl.h
+        include/monkey/parser.h
+        include/monkey/ast.h
 )
 
 set(test_sources
@@ -71,4 +77,7 @@ set(test_sources
         src/container/container.cpp
         src/memalloc/allocator.cpp
         src/monkey/lexer.cpp
+        src/monkey/parser.cpp
+        src/monkey/ast.cpp
+        src/reference/dangling_reference.cpp
 )
